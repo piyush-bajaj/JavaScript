@@ -1,3 +1,8 @@
+/**
+ * function that coverts 2D array to 1D array
+ * 
+ * @param {array} array 
+ */
 function flatten(array) {
 	return array.reduce((temp, element) => temp.concat(element));
 }
